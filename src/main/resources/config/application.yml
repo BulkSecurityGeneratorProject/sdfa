@@ -48,8 +48,8 @@ spring:
     social:
         # see https://developers.google.com/+/web/signin/server-side-flow#step_1_create_a_client_id_and_client_secret
         google:
-            client-id: xxx
-            client-secret: xxx
+            client-id: 543966228503-aha0p9qi52ndop0v5341hb38850q0n84.apps.googleusercontent.com
+            client-secret: USqPWpkzWRT5uShaICV66ApS
 
         # see https://developers.facebook.com/docs/facebook-login/v2.2
         facebook:
@@ -85,16 +85,16 @@ info:
 jhipster:
     async:
         core-pool-size: 2
-        max-pool-size: 50
+        max-pool-size: 100
         queue-capacity: 10000
-    # By default CORS is disabled. Uncomment to enable.
-    #cors:
-        #allowed-origins: "*"
-        #allowed-methods: GET, PUT, POST, DELETE, OPTIONS
-        #allowed-headers: "*"
-        #exposed-headers:
-        #allow-credentials: true
-        #max-age: 1800
+     By default CORS is disabled. Uncomment to enable.
+    cors:
+        allowed-origins: "*"
+        allowed-methods: GET, PUT, POST, DELETE, OPTIONS
+        allowed-headers: "*"
+        exposed-headers:
+        allow-credentials: true
+        max-age: 1800
     mail:
         from: Airmate@localhost
     swagger:
@@ -103,9 +103,9 @@ jhipster:
         description: Airmate API documentation
         version: 0.0.1
         terms-of-service-url:
-        contact-name:
+        contact-name: Airmate Technologies
         contact-url:
-        contact-email:
+        contact-email: info@airmate.in
         license:
         license-url:
     social:
